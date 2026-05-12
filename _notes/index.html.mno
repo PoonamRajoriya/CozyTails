@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="notes" value="hello" />
+	<infoitem key="showOnOpen" value="true" />
+	<infoitem key="status" value="needs attention" />
+</info>

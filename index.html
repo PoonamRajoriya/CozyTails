@@ -1,728 +1,1120 @@
 <!DOCTYPE html>
-<html lang="zxx">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>patte - Home 1</title>
-  <link rel="icon" href="assets/img/heading-img.png">
-  <!-- CSS only -->
-   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-   <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-   <link rel="stylesheet" href="assets/css/slick.css">
-   <link rel="stylesheet" href="assets/css/slick-theme.css">
-   <!-- fancybox -->
-   <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
-   <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-   <!-- style -->
-   <link rel="stylesheet" href="assets/css/style.css">
-   <!-- responsive -->
-   <link rel="stylesheet" href="assets/css/responsive.css">
-   <!-- color -->
-   <link rel="stylesheet" href="assets/css/color.css">
-   <!-- jQuery -->
-   <script src="assets/js/jquery-3.6.0.min.js"></script>
-   <script src="assets/js/preloader.js"></script>
- </head>
-<body>
-<!-- loader -->
-<div class="preloader"> 
-    <div class="container">
-      <div class="dot dot-1"></div>
-      <div class="dot dot-2"></div>
-      <div class="dot dot-3"></div>
-    </div>
-</div>
-<!-- loader end -->
-<header>
-  <div class="top-bar">
-    <div class="container">
-      <div class="top-bar-slid">
-        <div>
-          <div class="phone-data">
-            <div class="phone">
-              <i>
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                <path d="M0,81v350h512V81H0z M456.952,111L256,286.104L55.047,111H456.952z M30,128.967l134.031,116.789L30,379.787V128.967z
-                   M51.213,401l135.489-135.489L256,325.896l69.298-60.384L460.787,401H51.213z M482,379.788L347.969,245.756L482,128.967V379.788z"></path>
-                </svg>
-              </i><a href="mallto:username@domain.com">username@domain.com</a>
-            </div>
-            <div class="phone d-flax align-items-center">
-              <i>
-                <svg height="112" viewBox="0 0 24 24" width="112" xmlns="http://www.w3.org/2000/svg"><g clip-rule="evenodd" fill="rgb(255255,255)" fill-rule="evenodd"><path d="m7 2.75c-.41421 0-.75.33579-.75.75v17c0 .4142.33579.75.75.75h10c.4142 0 .75-.3358.75-.75v-17c0-.41421-.3358-.75-.75-.75zm-2.25.75c0-1.24264 1.00736-2.25 2.25-2.25h10c1.2426 0 2.25 1.00736 2.25 2.25v17c0 1.2426-1.0074 2.25-2.25 2.25h-10c-1.24264 0-2.25-1.0074-2.25-2.25z"></path><path d="m10.25 5c0-.41421.3358-.75.75-.75h2c.4142 0 .75.33579.75.75s-.3358.75-.75.75h-2c-.4142 0-.75-.33579-.75-.75z"></path><path d="m9.25 19c0-.4142.33579-.75.75-.75h4c.4142 0 .75.3358.75.75s-.3358.75-.75.75h-4c-.41421 0-.75-.3358-.75-.75z"></path></g></svg>
-              </i>
-              <a class="me-3" href="callto:+02101283492">+021 01283492</a>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div class="time">
-            <div class="ordering">
-                <a href="#">Ordering</a>
-                <div class="line"></div>
-                <a href="#">Shipping</a>
-                <div class="line"></div>
-                <a href="#">Returns</a>
-              </div>
-            <div class="login">
-                <i class="fa-solid fa-user"></i>
-                <a href="login.html">Login / Register</a>
-              </div>
-          </div>
-        </div>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <![endif]-->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- page title -->
+      <title>Woof!</title>
+      <!--[if lt IE 9]>
+      <script src="js/respond.js"></script>
+      <![endif]-->
+      <!-- Font files -->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CQuicksand:400,500,700&display=swap" rel="stylesheet">
+      <link href="fonts/flaticon/flaticon.css" rel="stylesheet" type="text/css">
+      <link href="fonts/fontawesome/fontawesome-all.min.css" rel="stylesheet" type="text/css">
+      <!-- Fav icons -->
+      <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+      <!-- Bootstrap core CSS -->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- style CSS -->
+      <link href="css/style.css" rel="stylesheet">
+      <!-- plugins CSS -->
+      <link href="css/plugins.css" rel="stylesheet">
+      <!-- Colors CSS -->
+      <link href="styles/maincolors.css" rel="stylesheet">
+      <!-- LayerSlider CSS -->
+      <link rel="stylesheet" href="vendor/layerslider/css/layerslider.css">
+   </head>
+   <!-- ==== body starts ==== -->
+   <body id="top">
+      <!-- Preloader-->
+      <div id="preloader">
+         <div class="spinner">
+            <div class="bounce1"></div>
+         </div>
       </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="bottom-bar">
-      <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
-        <nav class="navbar">
-        <ul class="navbar-links">
-                    <li class="navbar-dropdown menu-item-children">
-                      <a href="javascript:void(0)"><i>
-                        <img alt="home" src="assets/img/home.png">
-                      </i>home</a>
-                      <div class="dropdown">
-                        <a href="index.html">home 1</a>
-                        <a href="index-2.html">home 2</a>
-                        <a href="index-3.html">home 3</a>
-                      </div>
-                    </li>
-                    <li class="navbar-dropdown">
-                      <a href="about.html">About</a>
-                    </li>
-                    <li class="navbar-dropdown menu-item-children">
-                      <a href="javascript:void(0)"><i>
-                      </i>services</a>
-                      <div class="dropdown">
-                        <a href="services.html">services</a>
-                        <a href="service-details.html">service details</a>
-                      </div>
-                    </li>
-                    <li class="navbar-dropdown menu-item-children">
-                      <a href="javascript:void(0)">pages</a>
-                      <div class="dropdown">
-                        <a href="team-details.html">team details</a>
-                        <a href="how-we-works.html">how we works</a>
-                        <a href="history.html">history</a>
-                        <a href="pricing-packages.html">pricing packages</a>
-                        <a href="photo-gallery.html">photo gallery</a>
-                        <a href="login.html">login</a>
-                      </div>
-                    </li>
-                    <li class="navbar-dropdown menu-item-children">
-                      <a href="javascript:void(0)">Shop</a>
-                      <div class="dropdown">
-                        <a href="our-products.html">our products</a>
-                        <a href="product-details.html">product details</a>
-                        <a href="shop-cart.html">shop cart</a>
-                        <a href="cart-checkout.html">cart checkout</a>
-                      </div>
-                    </li>
-                    <li class="navbar-dropdown menu-item-children">
-                      <a href="javascript:void(0)">News</a>
-                      <div class="dropdown">
-                        <a href="our-blog.html">our blog</a>
-                        <a href="blog-details.html">blog details</a>
-                      </div>
-                    </li>
-                    <li class="navbar-dropdown">
-                      <a href="contact.html">Contact</a>
-                    </li>
-        </ul>
+      <!-- /Preloader ends -->
+      <nav id="main-nav" class="navbar-expand-xl">
+         <!-- Start Top Bar -->
+         <div class="container-fluid top-bar">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-9">
+                     <!-- Start Contact Info -->
+                     <ul class="contact-details float-left">
+                        <li><i class="fa fa-map-marker"></i>Pet Street 123 - New York</li>
+                        <li><i class="fa fa-envelope"></i><a href="mailto:email@site.com">email@yoursite.com</a></li>
+                        <li><i class="fa fa-phone"></i>(123) 456-789</li>
+                     </ul>
+                     <!-- End Contact Info -->
+                  </div>
+                  <!-- /col -->
+                  <div class="col-md-3">
+                     <!-- Start Social Links -->
+                     <ul class="social-list float-right list-inline">
+                        <li class="list-inline-item"><a title="Facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a title="Twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a  title="Instagram" href="#"><i class="fab fa-instagram"></i></a></li>
+                     </ul>
+                     <!-- /End Social Links -->
+                  </div>
+                  <!-- /col -->
+               </div>
+               <!-- /row -->
+            </div>
+            <!-- /container -->
+         </div>
+         <!-- End Top bar -->
+         <!-- Navbar Starts -->
+         <div class="navbar container-fluid">
+            <div class="container">
+               <!-- logo -->
+               <a class="navbar-brand" href="index.html">
+               <i class="flaticon-dog-20"></i><span>Woof!</span>
+               </a>
+               <!-- Navbartoggler -->
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggle-icon">
+               <i class="fas fa-bars"></i>
+               </span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav ms-auto">
+                     <!-- menu item -->
+                     <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home
+                        </a>
+                     </li>
+                     <!-- menu item -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="services-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="services-dropdown">
+                           <a class="dropdown-item" href="services.html">Services Style 1</a>
+                           <a class="dropdown-item" href="services2.html">Services Style 2</a>
+                           <a class="dropdown-item" href="services-single.html">Services Single</a>
+                        </div>
+                     </li>
+                     <!-- menu item -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="about-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="about-dropdown">
+                           <a class="dropdown-item" href="about.html">About Style 1</a>
+                           <a class="dropdown-item" href="about2.html">About Style 2</a>
+                        </div>
+                     </li>
+                     <!-- menu item -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="adopt-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Adopt
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="adopt-dropdown">
+                           <a class="dropdown-item" href="adoption.html">Adoption Gallery</a>
+                           <a class="dropdown-item" href="adoption-single.html">Adoption Single Page</a>
+                        </div>
+                     </li>
+                     <!-- menu item -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="gallery-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Gallery
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="gallery-dropdown">
+                           <a class="dropdown-item" href="gallery.html">Gallery Style 1</a>
+                           <a class="dropdown-item" href="gallery2.html">Gallery Style 2</a>
+                        </div>
+                     </li>
+                     <!-- menu item -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="contact-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contact
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="contact-dropdown">
+                           <a class="dropdown-item" href="contact.html">Contact Style 1</a>
+                           <a class="dropdown-item" href="contact2.html">Contact Style 2</a>
+                        </div>
+                     </li>
+                     <!-- menu item -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="others-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Other pages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="others-dropdown">
+                           <a class="dropdown-item" href="team.html">Our Team</a>
+                           <a class="dropdown-item" href="blog.html">Blog Home</a>
+                           <a class="dropdown-item" href="blog-single.html">Blog Single</a>
+                           <a class="dropdown-item" href="elements.html">Elements Page</a>
+                           <a class="dropdown-item" href="404.html">404 Page</a>
+                        </div>
+                     </li>
+                  </ul>
+                  <!--/ul -->
+               </div>
+               <!--collapse -->
+            </div>
+            <!-- /container -->
+         </div>
+         <!-- /navbar -->
       </nav>
-      <div class="menu-end">
-            <div class="bar-menu">
-              <i class="fa-solid fa-bars"></i>
+      <!-- /nav -->
+      <div id="slider" style="width:1200px;height:800px;margin:0 auto;margin-bottom: 0px;">
+         <!-- Slide 2 -->
+         <div class="ls-slide" data-ls="duration:4000; transition2d:7; kenburnszoom:out; kenburnsrotate:-5; kenburnsscale:1.2;">
+            <!-- bg image  -->
+            <img src="img/slide1.jpg" class="ls-bg" alt="" >
+            <!-- text  -->
+            <div class="ls-l header-wrapper" data-ls="offsetyin:150; durationin:700; delayin:200; easingin:easeOutQuint; rotatexin:20; scalexin:1.4; offsetyout:600; durationout:400; parallaxlevel:0;">
+               <div class="header-text dog-elements">
+                  <h1>Adopt a pet today!</h1>
+                  <!--the div below is hidden on small screens  -->
+                  <div class="d-none d-sm-block">
+                     <p class="header-p">Search our list of dogs, cats and other pets available for adoption near you</p>
+                     <a class="btn btn-primary " href="adoption.html">Adopt Today</a>
+                  </div>
+                  <!--/d-none  -->
+               </div>
+               <!-- header-text  -->
             </div>
-            <div class="header-search-button search-box-outer">
-            <a href="javascript:void(0)" class="search-btn">
-                <svg height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><g id="_12" data-name="12"><path d="m21.71 20.29-2.83-2.82a9.52 9.52 0 1 0 -1.41 1.41l2.82 2.83a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zm-17.71-8.79a7.5 7.5 0 1 1 7.5 7.5 7.5 7.5 0 0 1 -7.5-7.5z"></path></g></svg>
-              </a>
+            <!-- ls-l  -->
+         </div>
+         <!-- ls-slide -->
+         <!-- Slide 2 -->
+         <div class="ls-slide" data-ls="duration:4000; transition2d:7; kenburnszoom:out; kenburnsrotate:-5; kenburnsscale:1.2;">
+            <!-- bg image  -->
+            <img src="img/slide2.jpg" class="ls-bg" alt="">
+            <!-- text  -->
+            <div class="ls-l header-wrapper" data-ls="offsetyin:150; durationin:700; delayin:200; easingin:easeOutQuint; rotatexin:20; scalexin:1.4; offsetyout:600; durationout:400; parallaxlevel:0;">
+               <div class="header-text cat-elements">
+                  <h1>High Quality pet food</h1>
+                  <!--the div below is hidden on small screens  -->
+                  <div class="d-none d-sm-block">
+                     <p class="header-p">We have all the best products for your pet, visit our store today!</p>
+                     <a class="btn btn-primary " href="contact.html">Contact us</a>
+                  </div>
+                  <!--/d-none  -->
+               </div>
+               <!-- header-text  -->
             </div>
-               <div class="line"></div>
-               <a href="#"><i class="fa-regular fa-heart"></i></a>
-               <div class="hamburger-icon">
-                  <div class="donation">
-
-                <a href="JavaScript:void(0)" class="mx-0" id="show">
-
-                  <svg enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><g><path d="m452 120h-60.946c-7.945-67.478-65.477-120-135.054-120s-127.109 52.522-135.054 120h-60.946c-11.046 0-20 8.954-20 20v352c0 11.046 8.954 20 20 20h392c11.046 0 20-8.954 20-20v-352c0-11.046-8.954-20-20-20zm-196-80c47.484 0 87.019 34.655 94.659 80h-189.318c7.64-45.345 47.175-80 94.659-80zm176 432h-352v-312h40v60c0 11.046 8.954 20 20 20s20-8.954 20-20v-60h192v60c0 11.046 8.954 20 20 20s20-8.954 20-20v-60h40z"></path></g></svg>
-
-                </a>
-
-              </div>
+            <!-- ls-l  -->
+         </div>
+         <!-- ls-slide -->
+         <!-- Slide 3 -->
+         <div class="ls-slide" data-ls="duration:4000; transition2d:7; kenburnszoom:out; kenburnsrotate:-5; kenburnsscale:1.2;">
+            <!-- bg image  -->
+            <img src="img/slide3.jpg" class="ls-bg" alt="">
+            <!-- text  -->
+            <div class="ls-l header-wrapper" data-ls="offsetyin:150; durationin:700; delayin:200; easingin:easeOutQuint; rotatexin:20; scalexin:1.4; offsetyout:600; durationout:400; parallaxlevel:0;">
+               <div class="header-text dog-elements">
+                  <h1>Visit our Pet Hotel</h1>
+                  <!--the div below is hidden on small screens  -->
+                  <div class="d-none d-sm-block">
+                     <p class="header-p">Our facility is designed to meet the unique needs of your pet</p>
+                     <a class="btn btn-primary " href="services.html">Our services</a>
+                  </div>
+                  <!--/d-none  -->
+               </div>
+               <!-- header-text  -->
             </div>
+            <!-- ls-l  -->
+         </div>
+         <!-- ls-slide -->
+         <!-- Slide 4 -->
+         <div class="ls-slide" data-ls="duration:4000; transition2d:7; kenburnszoom:out; kenburnsrotate:-5; kenburnsscale:1.2;">
+            <!-- bg image  -->
+            <img src="img/slide4.jpg" class="ls-bg" alt="">
+            <!-- text  -->
+            <div class="ls-l header-wrapper" data-ls="offsetyin:150; durationin:700; delayin:200; easingin:easeOutQuint; rotatexin:20; scalexin:1.4; offsetyout:600; durationout:400; parallaxlevel:0;">
+               <div class="header-text cat-elements">
+                  <h1>Experienced Veterinarians</h1>
+                  <!-- the div below is hidden on small screens  -->
+                  <div class="d-none d-sm-block">
+                     <p class="header-p">Your pet is in good hands, meet our highly qualified professionals</p>
+                     <a class="btn btn-primary " href="team.html">Our Team</a>
+                  </div>
+                  <!--/d-none  -->
+               </div>
+               <!-- header-text  -->
+            </div>
+            <!-- ls-l -->
+         </div>
+         <!-- ls-slide -->
       </div>
-    </div>
-  </div>
-  <div class="mobile-nav hmburger-menu" id="mobile-nav" style="display:block;">
-      <div class="res-log">
-        <a href="index.html">
-          <img src="assets/img/logo-w.png" alt="Responsive Logo">
-        </a>
-      </div>
-        <ul>
-
-          <li class="menu-item-has-children"><a href="JavaScript:void(0)">Home</a>
-            <ul class="sub-menu">
-
-              <li><a href="index.html">home 1</a></li>
-              <li><a href="index-2.html">home 2</a></li>
-              <li><a href="index-3.html">home 3</a></li>
-            </ul>
-          </li>
-          <li><a href="about.html">about</a></li>
-
-          
-          <li class="menu-item-has-children"><a href="JavaScript:void(0)">Services</a>
-
-          <ul class="sub-menu">
-
-            <li><a href="services.html">services</a></li>
-            <li><a href="service-details.html">service details</a></li>
-
-          </ul>
-
-          </li>
-          <li class="menu-item-has-children"><a href="JavaScript:void(0)">pages</a>
-              <ul class="sub-menu">
-                <li><a href="team-details.html">team details</a></li>
-                <li><a href="how-we-works.html">how we works</a></li>
-                <li><a href="history.html">history</a></li>
-                <li><a href="pricing-packages.html">pricing packages</a></li>
-                <li><a href="photo-gallery.html">photo gallery</a></li>
-                <li><a href="login.html">login</a></li>
-              </ul>
-
-          </li>
-          <li class="menu-item-has-children"><a href="JavaScript:void(0)">shop</a>
-
-              <ul class="sub-menu">
-                <li><a href="our-products.html">our products</a></li>
-                <li><a href="product-details.html">product details</a></li>
-                <li><a href="shop-cart.html">shop cart</a></li>
-                <li><a href="cart-checkout.html">cart checkout</a></li>
-              
-              </ul>
-
-          </li>
-          <li class="menu-item-has-children"><a href="JavaScript:void(0)">News</a>
-
-              <ul class="sub-menu">
-                <li><a href="our-blog.html">our blog</a></li>
-               <li><a href="blog-details.html">blog details</a></li>
-              
-              </ul>
-
-          </li>
-
-          <li><a href="contact.html">contacts</a></li>
-
-          </ul>
-
-            <ul class="social-icon">
-                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-            </ul>
-
-          <a href="JavaScript:void(0)" id="res-cross"></a>
-  </div>
-</header>
-<section class="hero-section" style="background-color: #fff8e5; background-image:url(assets/img/background.png)">
-    <div class="container">
-        <div class="row hero-one-slider owl-carousel owl-theme">
-            <div class="col-lg-12">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div class="hero-text">
-                            <h1>Take a Good Care of Pets</h1>
-                            <h3>We are your local dog home boarding service giving you complete</h3>
-                            <a href="contact.html" class="button">Get Appointment</a>
+      <!-- /slider -->
+      <!-- ==== Page Content ==== -->
+      <!-- Section services -->
+      <section id="services" class="cat-bg3">
+         <div class="container">
+            <div class="section-heading text-center">
+               <h2>Our Services</h2>
+            </div>
+            <!-- /Section-heading -->
+            <div class="container block-padding pt-0">
+               <div class="row">
+                  <div class="col-xl-6 my-auto">
+                     <h3>The best for your pet!</h3>
+                     <p>Aliquam erat volutpat In id fermentum augue, ut pellentesque leo. Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.</p>
+                     <p><strong>Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall Maecenas at arcu risus scelerisque laoree.</strong></p>
+                     <!-- ul custom-->
+                     <ul class="custom ps-0">
+                        <li>Aliquam erat volut pat.</li>
+                        <li>Ibu lum orci eget, viverra elit liquam erat volut pat phas ellus ac.</li>
+                        <li>Aliquam erat volut pat phas ellu</li>
+                     </ul>
+                  </div>
+                  <!-- /col-xl-->
+                  <div class="col-xl-6">
+                     <img src="img/services2.jpg" alt=""   data-aos="fade-down"  data-aos-duration="1500"  class="img-fluid border-irregular1 border-double">
+                  </div>
+               </div>
+               <!-- /row -->
+            </div>
+            <!-- /container -->
+            <!-- services carousel -->
+            <div class="bg-light-custom block-padding border-irregular1">
+               <div id="owl-services" class="container owl-carousel owl-theme">
+                  <!-- service 1  -->
+                  <div class="col-md-12 p-3">
+                     <div class="serviceBox">
+                        <!-- service icon -->
+                        <div class="service-icon">
+                           <i class="flaticon-people-1"></i>
                         </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="hero-img">
-                            <img src="https://via.placeholder.com/450x566" alt="img">
-                            <img src="assets/img/hero-shaps.png" alt="hero-shaps" class="img-1">
+                        <!-- service content -->
+                        <div class="service-content">
+                           <h6>Fun Activities</h6>
+                           <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum malesuada.
+                           </p>
+                           <a class="btn btn-primary" href="services-single.html">read more</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-12">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div class="hero-text">
-                            <h1>Healthy Pets, Happy People</h1>
-                            <h3>We are your local dog home boarding service giving you complete</h3>
-                            <a href="contact.html" class="button">Get Appointment</a>
+                     </div>
+                  </div>
+                  <!-- service 2  -->
+                  <div class="col-md-12 p-3">
+                     <div class="serviceBox">
+                        <!-- service icon -->
+                        <div class="service-icon">
+                           <i class="flaticon-pet-shelter"></i>
                         </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="hero-img">
-                            <img src="https://via.placeholder.com/450x566" alt="img">
-                            <img src="assets/img/hero-shaps.png" alt="hero-shaps" class="img-1">
+                        <!-- service content -->
+                        <div class="service-content">
+                           <h6>Pet Hotel</h6>
+                           <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum malesuada.
+                           </p>
+                           <a class="btn btn-primary" href="services-single.html">read more</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-12">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div class="hero-text">
-                            <h1>Take a Good Care of Pets</h1>
-                            <h3>We are your local dog home boarding service giving you complete</h3>
-                            <a href="contact.html" class="button">Get Appointment</a>
+                     </div>
+                  </div>
+                  <!-- service 3  -->
+                  <div class="col-md-12 p-3">
+                     <div class="serviceBox">
+                        <!-- service icon -->
+                        <div class="service-icon">
+                           <i class="flaticon-animals-2"></i>
                         </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="hero-img">
-                            <img src="https://via.placeholder.com/450x566" alt="img">
-                            <img src="assets/img/hero-shaps.png" alt="hero-shaps" class="img-1">
+                        <!-- service content -->
+                        <div class="service-content">
+                           <h6>Grooming Services</h6>
+                           <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum malesuada.
+                           </p>
+                           <a class="btn btn-primary" href="services-single.html">read more</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <img src="assets/img/hero-shaps-1.png" alt="hero-shaps" class="img-2">
-    <img src="assets/img/dabal-foot-1.png" alt="hero-shaps" class="img-3">
-    <img src="assets/img/hero-shaps-1.png" alt="hero-shaps" class="img-4">
-</section> 
-<section class="gap no-bottom">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="we-provide">
-                    <div class="we-provide-img">
-                        <img src="https://via.placeholder.com/300x300" alt="we-provide-1">
-                        <svg width="326" height="326" viewBox="0 0 673 673" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.82698 416.603C-19.0352 298.701 18.5108 173.372 107.497 90.7633L110.607 96.5197C24.3117 177.199 -12.311 298.935 15.0502 413.781L9.82698 416.603ZM89.893 565.433C172.674 654.828 298.511 692.463 416.766 663.224L414.077 658.245C298.613 686.363 175.954 649.666 94.9055 562.725L89.893 565.433ZM656.842 259.141C685.039 374.21 648.825 496.492 562.625 577.656L565.413 582.817C654.501 499.935 691.9 374.187 662.536 256.065L656.842 259.141ZM581.945 107.518C499.236 18.8371 373.997 -18.4724 256.228 10.5134L259.436 16.4515C373.888 -10.991 495.248 25.1518 576.04 110.708L581.945 107.518Z" fill="#fedc4f"/>
-                        </svg>
-
-                    </div>
-                    <a href="#"><h5>Find a Dog Sitter</h5></a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="we-provide">
-                    <div class="we-provide-img">
-                        <img src="https://via.placeholder.com/300x300" alt="we-provide-1">
-                        <svg width="326" height="326" viewBox="0 0 673 673" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.82698 416.603C-19.0352 298.701 18.5108 173.372 107.497 90.7633L110.607 96.5197C24.3117 177.199 -12.311 298.935 15.0502 413.781L9.82698 416.603ZM89.893 565.433C172.674 654.828 298.511 692.463 416.766 663.224L414.077 658.245C298.613 686.363 175.954 649.666 94.9055 562.725L89.893 565.433ZM656.842 259.141C685.039 374.21 648.825 496.492 562.625 577.656L565.413 582.817C654.501 499.935 691.9 374.187 662.536 256.065L656.842 259.141ZM581.945 107.518C499.236 18.8371 373.997 -18.4724 256.228 10.5134L259.436 16.4515C373.888 -10.991 495.248 25.1518 576.04 110.708L581.945 107.518Z" fill="#fb5e3c"/>
-                        </svg>
-                    </div>
-                    <a href="#"><h5>Become a Dog Sitter</h5></a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="we-provide mb-0">
-                    <div class="we-provide-img">
-                        <img src="https://via.placeholder.com/300x300" alt="we-provide-1">
-                        <svg width="326" height="326" viewBox="0 0 673 673" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.82698 416.603C-19.0352 298.701 18.5108 173.372 107.497 90.7633L110.607 96.5197C24.3117 177.199 -12.311 298.935 15.0502 413.781L9.82698 416.603ZM89.893 565.433C172.674 654.828 298.511 692.463 416.766 663.224L414.077 658.245C298.613 686.363 175.954 649.666 94.9055 562.725L89.893 565.433ZM656.842 259.141C685.039 374.21 648.825 496.492 562.625 577.656L565.413 582.817C654.501 499.935 691.9 374.187 662.536 256.065L656.842 259.141ZM581.945 107.518C499.236 18.8371 373.997 -18.4724 256.228 10.5134L259.436 16.4515C373.888 -10.991 495.248 25.1518 576.04 110.708L581.945 107.518Z" fill="#fedc4f"/>
-                        </svg>
-                    </div>
-                    <a href="#"><h5> Start a franchise</h5></a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="gap no-bottom">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="welcome-to">
-                    <h2>Welcome to The Pet Care Company</h2>
-                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit do eiusmod tempor incididunt ut labore et.Lorem ipsumsit amet, consectetur adipiscing elit, sed do eiusmod teincididunt ut laamet,consectetur adipiscing elibore et.</p>
-                    <div class="row mt-lg-5">
-                        <div class="col-md-6">
-                            <div class="pet-grooming">
-                            <i><img src="assets/img/welcome-to-1.png" alt="icon"></i>
-                            <svg width="138" height="138" viewBox="0 0 673 673" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.82698 416.603C-19.0352 298.701 18.5108 173.372 107.497 90.7633L110.607 96.5197C24.3117 177.199 -12.311 298.935 15.0502 413.781L9.82698 416.603ZM89.893 565.433C172.674 654.828 298.511 692.463 416.766 663.224L414.077 658.245C298.613 686.363 175.954 649.666 94.9055 562.725L89.893 565.433ZM656.842 259.141C685.039 374.21 648.825 496.492 562.625 577.656L565.413 582.817C654.501 499.935 691.9 374.187 662.536 256.065L656.842 259.141ZM581.945 107.518C499.236 18.8371 373.997 -18.4724 256.228 10.5134L259.436 16.4515C373.888 -10.991 495.248 25.1518 576.04 110.708L581.945 107.518Z" fill="#940c69"/>
-                            </svg>
-                            <a href="#"><h4>Pet Grooming</h4></a>
-                            <p>Lorem ipsum dolor sit amet ur adipiscing elit, sed do eiu incididunt ut labore et.</p>
-                            </div>
+                     </div>
+                  </div>
+                  <!-- service 4 -->
+                  <div class="col-md-12 p-3">
+                     <div class="serviceBox">
+                        <!-- service icon -->
+                        <div class="service-icon">
+                           <i class="flaticon-dog-with-first-aid-kit-bag"></i>
                         </div>
-                        <div class="col-md-6">
-                            <div class="pet-grooming mb-0">
-                            <i><img src="assets/img/welcome-to-2.png" alt="icon"></i>
-                            <svg width="138" height="138" viewBox="0 0 673 673" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.82698 416.603C-19.0352 298.701 18.5108 173.372 107.497 90.7633L110.607 96.5197C24.3117 177.199 -12.311 298.935 15.0502 413.781L9.82698 416.603ZM89.893 565.433C172.674 654.828 298.511 692.463 416.766 663.224L414.077 658.245C298.613 686.363 175.954 649.666 94.9055 562.725L89.893 565.433ZM656.842 259.141C685.039 374.21 648.825 496.492 562.625 577.656L565.413 582.817C654.501 499.935 691.9 374.187 662.536 256.065L656.842 259.141ZM581.945 107.518C499.236 18.8371 373.997 -18.4724 256.228 10.5134L259.436 16.4515C373.888 -10.991 495.248 25.1518 576.04 110.708L581.945 107.518Z" fill="#940c69"/>
-                            </svg>
-                            <a href="#"><h4>Dog Walking</h4></a>
-                            <p>Lorem ipsum dolor sit amet ur adipiscing elit, sed do eiu incididunt ut labore et.</p>
-                            </div>
+                        <!-- service content -->
+                        <div class="service-content">
+                           <h6>Veterinary 24/7</h6>
+                           <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum malesuada.
+                           </p>
+                           <a class="btn btn-primary" href="services-single.html">read more</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="dog-walker two d-block">
-                    <img src="assets/img/puppies.png" class="puppies" alt="puppies">
-                    <img src="https://via.placeholder.com/636x721" class="w-100" alt="dog walker">
-                    <img src="assets/img/line.png" class="line" alt="line">
-                    <img src="assets/img/dabal-foot.png" class="dabal-foot" alt="dabal-foot">
-                    <img src="assets/img/haddi.png" class="haddi" alt="haddi">
-                </div>
-            </div>
-        </div>
-    </div>
-</section> 
-<section class="gap">
-    <div class="container">
-        <div class="heading">
-            <img src="assets/img/heading-img.png" alt="heading-img">
-            <h6>Find Healthy Product By Category</h6>
-            <h2>Browse By Categories</h2>
-        </div>
-        <div class="row slider-categorie owl-carousel owl-theme">
-            <div class="col-lg-12 item">
-                <div class="food-categorie">
-                    <img src="assets/img/food-categorie-1.png" alt="food-categorie">
-                    <a href="our-products.html">Cat Supplies</a>
-                </div>
-            </div>
-            <div class="col-lg-12 item">
-                <div class="food-categorie">
-                    <img src="assets/img/food-categorie-2.png" alt="food-categorie">
-                    <a href="our-products.html">Dog Supplies</a>
-                </div>
-            </div>
-            <div class="col-lg-12 item">
-                <div class="food-categorie">
-                    <img src="assets/img/food-categorie-3.png" alt="food-categorie">
-                    <a href="our-products.html">Animal Feed</a>
-                </div>
-            </div>
-            <div class="col-lg-12 item">
-                <div class="food-categorie">
-                    <img src="assets/img/food-categorie-4.png" alt="food-categorie">
-                    <a href="our-products.html">Accessories</a>
-                </div>
-            </div>
-            <div class="col-lg-12 item">
-                <div class="food-categorie">
-                    <img src="assets/img/food-categorie-5.png" alt="food-categorie">
-                    <a href="our-products.html">Horse Care</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="gap section-healthy-product" style="background-image: url(assets/img/healthy-product.png); background-color: #f5f5f5;">
-    <div class="container">
-        <div class="heading">
-            <img src="assets/img/heading-img.png" alt="heading-img">
-            <h6>Find Healthy Product</h6>
-            <h2>Healthy Products</h2>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="healthy-product">
-                    <div class="healthy-product-img">
-                        <img src="https://via.placeholder.com/217x255" alt="food">
-                        <ul class="star">
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                        </ul>
-                        <div class="add-to-cart">
-                          <a href="#">Add to Cart</a>
-                          <a href="#" class="heart-wishlist">
-                            <i class="fa-regular fa-heart"></i>
-                          </a>
+                     </div>
+                  </div>
+                  <!-- service 5 -->
+                  <div class="col-md-12 p-3">
+                     <div class="serviceBox">
+                        <!-- service icon -->
+                        <div class="service-icon">
+                           <i class="flaticon-syringe"></i>
                         </div>
-                    </div>
-                    <span>Animal Feed</span>
-                    <a href="our-products.html">Procan Adult Dog Food</a>
-                    <h6>$32.00</h6>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="healthy-product">
-                    <div class="healthy-product-img">
-                        <img src="https://via.placeholder.com/217x255" alt="food">
-                        <ul class="star">
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                        </ul>
-                        <div class="add-to-cart">
-                          <a href="#">Add to Cart</a>
-                          <a href="#" class="heart-wishlist">
-                            <i class="fa-regular fa-heart"></i>
-                          </a>
+                        <!-- service content -->
+                        <div class="service-content">
+                           <h6>Vaccines</h6>
+                           <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum malesuada.
+                           </p>
+                           <a class="btn btn-primary" href="services-single.html">read more</a>
                         </div>
-                        <h4>-24%</h4>
-                    </div>
-                    <span>Animal Feed</span>
-                    <a href="our-products.html">Best Organic Feeds</a>
-                    <h6><del>$32.00</del>$22.00</h6>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="healthy-product">
-                    <div class="healthy-product-img">
-                        <img src="https://via.placeholder.com/217x255" alt="food">
-                        <ul class="star">
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                        </ul>
-                        <div class="add-to-cart">
-                          <a href="#">Add to Cart</a>
-                          <a href="#" class="heart-wishlist">
-                            <i class="fa-regular fa-heart"></i>
-                          </a>
+                     </div>
+                  </div>
+                  <!-- service 6 -->
+                  <div class="col-md-12 p-3">
+                     <div class="serviceBox">
+                        <!-- service icon -->
+                        <div class="service-icon">
+                           <i class="flaticon-dog-training-3"></i>
                         </div>
-                    </div>
-                    <span>Animal Feed</span>
-                    <a href="our-products.html">Green Papaya Fruit</a>
-                    <h6>$32.00</h6>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="healthy-product">
-                    <div class="healthy-product-img">
-                        <img src="https://via.placeholder.com/217x255" alt="food">
-                        <ul class="star">
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                        </ul>
-                        <div class="add-to-cart">
-                          <a href="#">Add to Cart</a>
-                          <a href="#" class="heart-wishlist">
-                            <i class="fa-regular fa-heart"></i>
-                          </a>
+                        <!-- service content -->
+                        <div class="service-content">
+                           <h6>Training</h6>
+                           <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum malesuada.
+                           </p>
+                           <a class="btn btn-primary" href="services-single.html">read more</a>
                         </div>
-                        <h4>-24%</h4>
-                    </div>
-                    <span>Animal Feed</span>
-                    <a href="our-products.html">KMR Pwdr 12oz</a>
-                    <h6><del>$32.00</del>$22.00</h6>
-                </div>
+                     </div>
+                  </div>
+                  <!--col-md-12  -->
+               </div>
+               <!-- /owl-services -->
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="healthy-product mb-lg-0">
-                    <div class="healthy-product-img">
-                        <img src="https://via.placeholder.com/217x255" alt="food">
-                        <ul class="star">
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                        </ul>
-                        <div class="add-to-cart">
-                          <a href="#">Add to Cart</a>
-                          <a href="#" class="heart-wishlist">
-                            <i class="fa-regular fa-heart"></i>
-                          </a>
-                        </div>
-                        <h4>-24%</h4>
-                    </div>
-                    <span>Animal Feed</span>
-                    <a href="our-products.html">Cattle Feed</a>
-                    <h6><del>$32.00</del>$22.00</h6>
-                </div>
+            <!-- /bg-light-custom -->   
+         </div>
+         <!-- /container -->
+      </section>
+      <!-- / Section Ends -->
+      <!-- Section Blurb -->
+      <section id="blurb" class="bg-primary text-light">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-8 position-relative">
+                  <!-- image  -->
+                  <img src="img/blurbimg.png" class="img-fluid blurb-img" alt="">
+               </div>
+               <div class="col-xl-4 my-auto" data-aos="fade-down" >
+                  <h2 class="res-margin">Join our club</h2>
+                  <p class="featured-text">Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. 
+                     In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum.
+                  </p>
+                  <!-- button -->
+                  <a href="contact.html" class="btn btn-primary">contact us</a>
+               </div>
+               <!-- /col-lg -->
             </div>
-            <div class="col-lg-9">
-                <div class="deal-of-the-week">
-                    <div class="healthy-product-img">
-                        <h6>Deal of the Week</h6>
-                        <img src="https://via.placeholder.com/293x258" alt="food">
-                        <ul class="star">
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                        </ul>
-                    </div>
-                    <div class="healthy-product">
-                        <span>Animal Feed</span>
-                        <a href="our-products.html">Healthy Dog Food Roaster Chicken</a>
-                        <h6><del>$32.00</del>$22.00</h6>
-                        <h5>up to 14% off</h5>
-                        <div class="add-to-cart">
-                          <a href="#" class="button">Add to Cart</a>
-                          <a href="#" class="heart-wishlist">
-                            <i class="fa-regular fa-heart"></i>
-                          </a>
+            <!-- /row -->
+         </div>
+         <!-- /container -->
+      </section>
+      <!-- SVG effect -->
+      <svg id="bigTriangleColor" class="d-none d-sm-block" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+         <path d="M0 0 L50 100 L100 0 Z" />
+      </svg>
+      <!-- / Section Ends -->
+      <!-- Section About Us -->
+      <section id="about" class="dog-bg2">
+         <div class="container">
+            <div class="section-heading text-center">
+               <h2>About Us</h2>
+            </div>
+            <!-- /Section-heading -->
+         </div>
+         <!-- /container -->
+         <div class="container block-padding pt-0">
+            <div class="row">
+               <div class="col-lg-6 my-auto">
+                  <h3>Caring for your pets</h3>
+                  <p>Aliquam erat volutpat In id fermentum augue, ut pellentesque leo. Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.</p>
+                  <p>Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall Maecenas at arcu risus scelerisque laoree.</p>
+                  <ul class="custom ps-0">
+                     <li>Orci eget, viverra elit liquam erat volut pat phas ellus ac</li>
+                     <li>Ipuset phas ellus ac sodales Lorem ipsum dolor Phas ell</li>
+                     <li>Aliquam erat volut pat phas ellu</li>
+                  </ul>
+                  <!-- /ul -->
+               </div>
+               <!-- image -->
+               <div class="col-lg-6">
+                  <img src="img/about2.jpg" alt="" class="img-fluid border-irregular1"   data-aos="zoom-in">
+               </div>
+            </div>
+            <!-- /row -->
+         </div>
+         <!-- /container -->
+         <div class="bg-light-custom block-padding">
+            <div class="container">
+               <div id="counter" class="row">
+                  <!-- Counter -->
+                  <div class="col-xl-3 col-md-6">
+                     <div class="counter">
+                        <i class="counter-icon fa fa-users"></i>
+                        <!-- insert your final value on data-count= -->
+                        <div class="counter-value" data-count="1500">0</div>
+                        <h3 class="title">Happy Clients</h3>
+                     </div>
+                     <!-- /counter -->
+                  </div>
+                  <!-- /col-lg -->
+                  <!-- Counter -->
+                  <div class="col-xl-3 col-md-6">
+                     <div class="counter">
+                        <i class="counter-icon flaticon-dog-in-front-of-a-man"></i>
+                        <!-- insert your final value on data-count= -->
+                        <div class="counter-value" data-count="14">0</div>
+                        <h3 class="title">Professionals</h3>
+                     </div>
+                     <!-- /counter -->
+                  </div>
+                  <!-- /col-lg -->
+                  <!-- Counter -->
+                  <div class="col-xl-3 col-md-6">
+                     <div class="counter">
+                        <i class="counter-icon flaticon-dog-2"></i>
+                        <!-- insert your final value on data-count= -->
+                        <div class="counter-value" data-count="900">0</div>
+                        <h3 class="title">Adopted Pets</h3>
+                     </div>
+                     <!-- /counter -->
+                  </div>
+                  <!-- /col-lg -->
+                  <!-- Counter -->
+                  <div class="col-xl-3 col-md-6">
+                     <div class="counter">
+                        <i class="counter-icon flaticon-prize-badge-with-paw-print"></i>
+                        <!-- insert your final value on data-count= -->
+                        <div class="counter-value" data-count="12">0</div>
+                        <h3 class="title">Prizes</h3>
+                     </div>
+                     <!-- /counter -->
+                  </div>
+                  <!-- /col-lg -->
+               </div>
+               <!-- /row -->
+            </div>
+            <!-- /container -->
+         </div>
+         <!-- /block-padding -->
+         <div class="container bottom-block-padding">
+            <h3 class="text-center">What our clients say</h3>
+            <div class="col-md-12 mt-5">
+               <div id="owl-testimonial" class="owl-carousel owl-theme">
+                  <!-- testimonial -->
+                  <div class="testimonial">
+                     <div class="content">
+                        <p class="description">
+                           Aliquam erat volutpat In id fermentum augue, ut pellentesque leo. Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.                        
+                        </p>
+                     </div>
+                     <!-- /content -->
+                     <div class="testimonial-pic">
+                        <img src="img/team/team1.jpg" class="img-fluid" alt="">
+                     </div>
+                     <!-- /testimonial-pic -->
+                     <div class="testimonial-review">
+                        <h5 class="testimonial-title">Lucianna Smith</h5>
+                        <span>Teacher</span>
+                     </div>
+                     <!-- /testimonial-review -->
+                  </div>
+                  <!-- /testimonial -->
+                  <!-- testimonial -->
+                  <div class="testimonial">
+                     <div class="content">
+                        <p class="description">
+                           Aliquam erat volutpat In id fermentum augue, ut pellentesque leo. Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.                        
+                        </p>
+                     </div>
+                     <!-- /content -->
+                     <div class="testimonial-pic">
+                        <img src="img/team/team2.jpg" class="img-fluid" alt="">
+                     </div>
+                     <!-- /testimonial-pic -->
+                     <div class="testimonial-review">
+                        <h5 class="testimonial-title">John Sadana</h5>
+                        <span>Doctor</span>
+                     </div>
+                     <!-- /testimonial-review -->
+                  </div>
+                  <!-- /testimonial -->
+                  <!-- testimonial -->
+                  <div class="testimonial">
+                     <div class="content">
+                        <p class="description">
+                           Aliquam erat volutpat In id fermentum augue, ut pellentesque leo. Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.                        
+                        </p>
+                     </div>
+                     <!-- /content -->
+                     <div class="testimonial-pic">
+                        <img src="img/team/team3.jpg" class="img-fluid" alt="">
+                     </div>
+                     <!-- /testimonial-pic -->
+                     <div class="testimonial-review">
+                        <h5 class="testimonial-title">Jane Janeth</h5>
+                        <span>Librarian</span>
+                     </div>
+                     <!-- /testimonial-review -->
+                  </div>
+                  <!-- /testimonial -->
+               </div>
+               <!-- /owl-testimonial -->
+            </div>
+            <!-- /col-md-12 -->
+         </div>
+         <!-- /container -->
+      </section>
+      <!-- / Section Ends -->
+      <!-- Section: Gallery -->
+      <section id="gallery" class="dog-bg1 bg-light pb-0">
+         <div class="container">
+            <div class="section-heading text-center">
+               <h2>Our Gallery</h2>
+            </div>
+            <!-- /Section-heading -->
+         </div>
+         <!-- /container -->
+         <!-- centered Gallery navigation -->
+         <ul class="nav nav-pills cat center-nav">
+            <li class="nav-item">
+               <a class="nav-link active" href="#" data-bs-toggle="tab" data-filter="*">All</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#" data-bs-toggle="tab" data-filter=".dogscats">Dogs and Cats</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#" data-bs-toggle="tab" data-filter=".other">Other Pets</a>
+            </li>
+         </ul>
+         <!-- /ul -->
+         <!-- Gallery -->
+         <div id="gallery-isotope" class="mt-5">
+            <!-- Image 1 -->
+            <div class="dogscats col-lg-3 col-sm-6 col-md-6">
+               <div class="isotope-item">
+                  <div class="gallery-thumb">
+                     <img class="img-fluid" src="img/gallery/gallery1.jpg" alt="">
+                     <a href="img/gallery/gallery1.jpg"  title="You can add caption to pictures.">
+                     <span class="overlay-mask"></span>
+                     </a>							  							  
+                  </div>
+               </div>
+            </div>
+            <!-- Image 2 -->
+            <div class="other col-lg-3 col-sm-6 col-md-6">
+               <div class="isotope-item">
+                  <div class="gallery-thumb">
+                     <img class="img-fluid" src="img/gallery/gallery2.jpg" alt="">
+                     <a href="img/gallery/gallery2.jpg"  title="You can add caption to pictures.">
+                     <span class="overlay-mask"></span>
+                     </a>							  							  
+                  </div>
+               </div>
+            </div>
+            <!-- Image 3 -->
+            <div class="other col-lg-3 col-sm-6 col-md-6">
+               <div class="isotope-item">
+                  <div class="gallery-thumb">
+                     <img class="img-fluid" src="img/gallery/gallery3.jpg" alt="">
+                     <a href="img/gallery/gallery3.jpg"  title="You can add caption to pictures.">
+                     <span class="overlay-mask"></span>
+                     </a>							  							  
+                  </div>
+               </div>
+            </div>
+            <!-- Image 4 -->
+            <div class="dogscats col-lg-3 col-sm-6 col-md-6">
+               <div class="isotope-item">
+                  <div class="gallery-thumb">
+                     <img class="img-fluid" src="img/gallery/gallery4.jpg" alt="">
+                     <a href="img/gallery/gallery4.jpg"  title="You can add caption to pictures.">
+                     <span class="overlay-mask"></span>
+                     </a>							  							  
+                  </div>
+               </div>
+            </div>
+            <!-- Image 5 -->
+            <div class="dogscats col-lg-3 col-sm-6 col-md-6">
+               <div class="isotope-item">
+                  <div class="gallery-thumb">
+                     <img class="img-fluid" src="img/gallery/gallery5.jpg" alt="">
+                     <a href="img/gallery/gallery5.jpg"  title="You can add caption to pictures.">
+                     <span class="overlay-mask"></span>
+                     </a>							  							  
+                  </div>
+               </div>
+            </div>
+            <!-- Image 6 -->
+            <div class="dogscats col-lg-3 col-sm-6 col-md-6">
+               <div class="isotope-item">
+                  <div class="gallery-thumb">
+                     <img class="img-fluid" src="img/gallery/gallery6.jpg" alt="">
+                     <a href="img/gallery/gallery6.jpg"  title="You can add caption to pictures.">
+                     <span class="overlay-mask"></span>
+                     </a>							  							  
+                  </div>
+               </div>
+            </div>
+            <!-- Image 7 -->
+            <div class="dogscats col-lg-3 col-sm-6 col-md-6">
+               <div class="isotope-item">
+                  <div class="gallery-thumb">
+                     <img class="img-fluid" src="img/gallery/gallery7.jpg" alt="">
+                     <a href="img/gallery/gallery7.jpg"  title="You can add caption to pictures.">
+                     <span class="overlay-mask"></span>
+                     </a>							  							  
+                  </div>
+               </div>
+            </div>
+            <!-- Image 8 -->
+            <div class="other col-lg-3 col-sm-6 col-md-6">
+               <div class="isotope-item">
+                  <div class="gallery-thumb">
+                     <img class="img-fluid" src="img/gallery/gallery8.jpg" alt="">
+                     <a href="img/gallery/gallery8.jpg"  title="You can add caption to pictures.">
+                     <span class="overlay-mask"></span>
+                     </a>							  							  
+                  </div>
+               </div>
+            </div>
+            <!-- Image 9 -->
+            <div class="other col-lg-3 col-sm-6 col-md-6">
+               <div class="isotope-item">
+                  <div class="gallery-thumb">
+                     <img class="img-fluid" src="img/gallery/gallery9.jpg" alt="">
+                     <a href="img/gallery/gallery9.jpg"  title="You can add caption to pictures.">
+                     <span class="overlay-mask"></span>
+                     </a>							  							  
+                  </div>
+               </div>
+            </div>
+            <!-- Image 10 -->
+            <div class="dogscats col-lg-3 col-sm-6 col-md-6">
+               <div class="isotope-item">
+                  <div class="gallery-thumb">
+                     <img class="img-fluid" src="img/gallery/gallery10.jpg" alt="">
+                     <a href="img/gallery/gallery10.jpg"  title="You can add caption to pictures.">
+                     <span class="overlay-mask"></span>
+                     </a>							  							  
+                  </div>
+               </div>
+            </div>
+            <!-- Image 11 -->
+            <div class="other col-lg-3 col-sm-6 col-md-6">
+               <div class="isotope-item">
+                  <div class="gallery-thumb">
+                     <img class="img-fluid" src="img/gallery/gallery11.jpg" alt="">
+                     <a href="img/gallery/gallery11.jpg"  title="You can add caption to pictures.">
+                     <span class="overlay-mask"></span>
+                     </a>							  							  
+                  </div>
+               </div>
+            </div>
+            <!-- Image 12 -->
+            <div class="dogscats col-lg-3 col-sm-6 col-md-6">
+               <div class="isotope-item">
+                  <div class="gallery-thumb">
+                     <img class="img-fluid" src="img/gallery/gallery12.jpg" alt="">
+                     <a href="img/gallery/gallery12.jpg"  title="You can add caption to pictures.">
+                     <span class="overlay-mask"></span>
+                     </a>							  							  
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- /gallery-isotope-->  
+      </section>
+      <!-- / Section Ends -->
+      <!-- Section team -->
+      <section id="team" class="cat-bg1">
+         <div class="container">
+            <div class="section-heading text-center">
+               <h2>Our Team</h2>
+            </div>
+            <!-- /Section-heading -->
+            <div class="container">
+               <div id="owl-team2" class="owl-carousel owl-theme">
+                  <!-- Team member -->
+                  <div class="col-lg-12 team-style2">
+                     <!-- image -->
+                     <img src="img/team/team1.jpg" alt="" class="img-fluid">
+                     <div class="team-caption">
+                        <!-- social icons -->
+                        <div class="icons">
+                           <a href="#"><i class="fa fa-envelope"></i></a>
+                           <a href="#"><i class="fab fa-facebook-f"></i></a>
+                           <a href="#"><i class="fab fa-instagram"></i></a>
                         </div>
-                        <div id="countdown">
-                            <ul>
-                              <li><span id="days"></span>days</li>
-                              <li><span id="hours"></span>Hour</li>
-                              <li><span id="minutes"></span>Min</li>
-                              <li class="mb-0"><span id="seconds"></span>Sec</li>
-                            </ul>
+                     </div>
+                     <!-- name -->
+                     <div class="name">
+                        <h4> Mary Smith</h4>
+                        <h6>Trainer</h6>
+                     </div>
+                     <!-- /name -->
+                  </div>
+                  <!-- /team -->
+                  <!-- Team member -->
+                  <div class="col-lg-12 team-style2">
+                     <!-- image -->
+                     <img src="img/team/team2.jpg" alt="" class="img-fluid">
+                     <div class="team-caption">
+                        <!-- social icons -->
+                        <div class="icons">
+                           <a href="#"><i class="fa fa-envelope"></i></a>
+                           <a href="#"><i class="fab fa-facebook-f"></i></a>
+                           <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                     </div>
+                     <!-- name -->
+                     <div class="name">
+                        <h4>John Doe</h4>
+                        <h6>Pet Expert</h6>
+                     </div>
+                     <!-- /name -->
+                  </div>
+                  <!-- /team -->
+                  <!-- Team member -->
+                  <div class="col-lg-12 team-style2">
+                     <!-- image -->
+                     <img src="img/team/team3.jpg" alt="" class="img-fluid">
+                     <div class="team-caption">
+                        <!-- social icons -->
+                        <div class="icons">
+                           <a href="#"><i class="fa fa-envelope"></i></a>
+                           <a href="#"><i class="fab fa-facebook-f"></i></a>
+                           <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                     </div>
+                     <!-- name -->
+                     <div class="name">
+                        <h4>Alissa Silva</h4>
+                        <h6>Veterinarian</h6>
+                     </div>
+                     <!-- /name -->
+                  </div>
+                  <!-- /team -->
+                  <!-- Team member -->
+                  <div class="col-lg-12 team-style2">
+                     <!-- image -->
+                     <img src="img/team/team4.jpg" alt="" class="img-fluid">
+                     <div class="team-caption">
+                        <!-- social icons -->
+                        <div class="icons">
+                           <a href="#"><i class="fa fa-envelope"></i></a>
+                           <a href="#"><i class="fab fa-facebook-f"></i></a>
+                           <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                     </div>
+                     <!-- name -->
+                     <div class="name">
+                        <h4>Ana Doe</h4>
+                        <h6>Veterinarian</h6>
+                     </div>
+                     <!-- /name -->
+                  </div>
+                  <!-- /team -->
+                  <!-- Team member -->
+                  <div class="col-lg-12 team-style2">
+                     <!-- image -->
+                     <img src="img/team/team5.jpg" alt="" class="img-fluid">
+                     <div class="team-caption">
+                        <!-- social icons -->
+                        <div class="icons">
+                           <a href="#"><i class="fa fa-envelope"></i></a>
+                           <a href="#"><i class="fab fa-facebook-f"></i></a>
+                           <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                     </div>
+                     <!-- name -->
+                     <div class="name">
+                        <h4>Lucas Smith</h4>
+                        <h6>Animal Caretaker</h6>
+                     </div>
+                     <!-- /name -->
+                  </div>
+                  <!-- /team -->
+               </div>
+               <!-- /owl-team2 -->
+            </div>
+            <!-- /container -->   
+         </div>
+         <!-- /container -->
+      </section>
+      <!-- / Section Ends -->
+      <!-- Section Call to action -->
+      <div id="call-to-action">
+         <div class="container block-padding">
+            <div class="col-lg-6 offset-lg-6 bg-primary text-light card text-center" >
+               <h4>Subscribe to our newsletter</h4>
+               <p>Ultricies a,interdum donec eget metus auguen u Fusce mollis imperdiet interdum donec eget metus auguen unc vel lorem.</p>
+               <!-- Form -->				
+               <div id="mc_embed_signup">
+                  <!-- your form address in the line bellow -->
+                  <form action="//yourlist.us12.list-manage.com/subscribe/post?u=04e646927a196552aaee78a7b&id=111" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                     <div id="mc_embed_signup_scroll">
+                        <div class="mc-field-group">
+                           <div class="input-group">
+                              <input class="form-control input-lg required email" type="email" value="" name="EMAIL" placeholder="Your email here" id="mce-EMAIL">
+                              <span class="input-group-btn">
+                              <button class="btn btn-primary" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
+                              </span>
                            </div>
-                    </div>
-                </div>
+                           <!-- Subscription results -->
+                           <div id="mce-responses" class="mailchimp">
+                              <div class="alert alert-danger response" id="mce-error-response"></div>
+                              <div class="alert alert-success response" id="mce-success-response"></div>
+                           </div>
+                        </div>
+                        <!-- /mc-fiel-group -->									
+                     </div>
+                     <!-- /mc_embed_signup_scroll -->
+                  </form>
+                  <!-- /form ends -->								
+               </div>
+               <!-- /mc_embed_signup -->
             </div>
-        </div>
-    </div>
-</section> 
-<section class="gap">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="count-text">
-                    <img alt="img" src="assets/img/fun-facts-1.png">
-                   <div>
-                   <div class="d-flex justify-content-center">
-                        <h2 class="count" data-number="100" ></h2>
-                        <span>+</span>
-                   </div>
-                   <h3 class="text">Client Served</h3>
-                   </div>
-                </div>
+            <!-- /col-md-12 -->
+         </div>
+         <!--/row -->
+      </div>
+      <!--/call-to-action --><!-- Section Adopt -->
+      <section id="adopt" class="paws-house-bg1 bg-light">
+         <div class="container ">
+            <div class="section-heading text-center">
+               <h2>Adopt a Pet</h2>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="count-text">
-                    <img alt="img" src="assets/img/fun-facts-2.png">
-                   <div>
-                   <div class="d-flex justify-content-center">
-                        <h2 class="count" data-number="99" ></h2>
-                        <span>%</span>
-                   </div>
-                   <h3 class="text">Client Served</h3>
+            <!-- /Section-heading -->
+            <div class="col-lg-10 offset-lg-1 text-center">
+               <h3>Find a new furry Friend</h3>
+               <p>Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.</p>
+            </div>
+            <!-- First row: Adopt a pet -->
+            <div class="row mt-5">
+               <!-- Pet  -->
+               <div class="adopt-card col-md-6 col-xl-3 res-margin">
+                  <div class="card bg-light-custom">
+                     <div class="thumbnail text-center">
+                        <!-- Image -->
+                        <img src="img/adoption/adoption1.jpg" class="border-irregular1 img-fluid" alt="">
+                        <!-- Name -->
+                        <div class="caption-adoption">
+                           <h6 class="adoption-header">Fluffy</h6>
+                           <!-- List -->
+                           <ul class="list-unstyled">
+                              <li><strong>Gender:</strong> Female</li>
+                              <li><strong>Neutered: </strong> Yes</li>
+                              <li><strong>Age:</strong> 2 years</li>
+                           </ul>
+                           <!-- Buttons -->								  
+                           <div class="text-center">
+                              <a href="adoption-single.html" class="btn btn-primary">More Info</a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- /thumbnail -->
                   </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="count-text mb-sm-0">
-                    <img alt="img" src="assets/img/fun-facts-3.png">
-                   <div>
-                   <div class="d-flex justify-content-center">
-                        <h2 class="count" data-number="2" ></h2>
-                        <span>k</span>
-                   </div>
-                   <h3 class="text">Client Served</h3>
+                  <!-- /card -->
+               </div>
+               <!-- /adopt-card -->
+               <!-- /pet -->
+               <!-- Pet  -->
+               <div class="adopt-card col-md-6 col-xl-3 res-margin">
+                  <div class="card bg-light-custom">
+                     <div class="thumbnail text-center">
+                        <!-- Image -->
+                        <img src="img/adoption/adoption2.jpg" class="border-irregular1 img-fluid" alt="">
+                        <!-- Name -->
+                        <div class="caption-adoption">
+                           <h6 class="adoption-header">Charlie</h6>
+                           <!-- List -->
+                           <ul class="list-unstyled">
+                              <li><strong>Gender:</strong> Male</li>
+                              <li><strong>Neutered: </strong> Yes</li>
+                              <li><strong>Age:</strong> 2 years</li>
+                           </ul>
+                           <!-- Buttons -->								  
+                           <div class="text-center">
+                              <a href="adoption-single.html" class="btn btn-primary">More Info</a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- /thumbnail -->
                   </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="count-text mb-0">
-                    <img alt="img" src="assets/img/fun-facts-4.png">
-                   <div>
-                   <div class="d-flex justify-content-center">
-                        <h2 class="count" data-number="400" ></h2>
-                        <span>+</span>
-                   </div>
-                   <h3 class="text">Client Served</h3>
+                  <!-- /card -->
+               </div>
+               <!-- /adopt-card -->
+               <!-- /pet -->
+               <!-- Pet  -->
+               <div class="adopt-card col-md-6 col-xl-3 res-margin">
+                  <div class="card bg-light-custom">
+                     <div class="thumbnail text-center">
+                        <!-- Image -->
+                        <img src="img/adoption/adoption3.jpg" class="border-irregular1 img-fluid" alt="">
+                        <!-- Name -->
+                        <div class="caption-adoption">
+                           <h6 class="adoption-header">Lucky</h6>
+                           <!-- List -->
+                           <ul class="list-unstyled">
+                              <li><strong>Gender:</strong> Male</li>
+                              <li><strong>Neutered: </strong> Yes</li>
+                              <li><strong>Age:</strong> 5 years</li>
+                           </ul>
+                           <!-- Buttons -->								  
+                           <div class="text-center">
+                              <a href="adoption-single.html" class="btn btn-primary">More Info</a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- /thumbnail -->
                   </div>
-                </div>
+                  <!-- /card -->
+               </div>
+               <!-- /adopt-card -->
+               <!-- /pet -->
+               <!-- Pet  -->
+               <div class="adopt-card col-md-6 col-xl-3 res-margin">
+                  <div class="card bg-light-custom">
+                     <div class="thumbnail text-center">
+                        <!-- Image -->
+                        <img src="img/adoption/adoption4.jpg" class="border-irregular1 img-fluid" alt="">
+                        <!-- Name -->
+                        <div class="caption-adoption">
+                           <h6 class="adoption-header">Magdalene</h6>
+                           <!-- List -->
+                           <ul class="list-unstyled">
+                              <li><strong>Gender:</strong> Female</li>
+                              <li><strong>Neutered: </strong> No</li>
+                              <li><strong>Age:</strong> 2 years</li>
+                           </ul>
+                           <!-- Buttons -->								  
+                           <div class="text-center">
+                              <a href="adoption-single.html" class="btn btn-primary">More Info</a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- /thumbnail -->
+                  </div>
+                  <!-- /card -->
+               </div>
+               <!-- /adopt-card -->
+               <!-- /pet -->
             </div>
-        </div>
-    </div>
-</section> 
-<section>
-    <div class="container">
-        <div class="heading">
-            <img src="assets/img/heading-img.png" alt="heading-img">
-            <h6>Meet Our Experts</h6>
-            <h2>Best Working Team</h2>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="team-working">
-                    <img src="https://via.placeholder.com/170x170" alt="team">
-                    <svg width="188" height="188" viewBox="0 0 673 673" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.82698 416.603C-19.0352 298.701 18.5108 173.372 107.497 90.7633L110.607 96.5197C24.3117 177.199 -12.311 298.935 15.0502 413.781L9.82698 416.603ZM89.893 565.433C172.674 654.828 298.511 692.463 416.766 663.224L414.077 658.245C298.613 686.363 175.954 649.666 94.9055 562.725L89.893 565.433ZM656.842 259.141C685.039 374.21 648.825 496.492 562.625 577.656L565.413 582.817C654.501 499.935 691.9 374.187 662.536 256.065L656.842 259.141ZM581.945 107.518C499.236 18.8371 373.997 -18.4724 256.228 10.5134L259.436 16.4515C373.888 -10.991 495.248 25.1518 576.04 110.708L581.945 107.518Z" fill="#000"/>
-                    </svg>
-                    <span>Veterinary Assistant</span>
-                    <a href="team-details.html"><h4>Gorjona Hiller</h4></a>
-                    <ul class="social-icon">
-                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    </ul>
-                </div>
+            <!-- /row -->      
+            <div class="text-center mt-5">
+               <a href="adoption.html" class="btn btn-secondary btn-lg">See more pets</a>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="team-working">
-                    <img src="https://via.placeholder.com/170x170" alt="team">
-                    <svg width="188" height="188" viewBox="0 0 673 673" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.82698 416.603C-19.0352 298.701 18.5108 173.372 107.497 90.7633L110.607 96.5197C24.3117 177.199 -12.311 298.935 15.0502 413.781L9.82698 416.603ZM89.893 565.433C172.674 654.828 298.511 692.463 416.766 663.224L414.077 658.245C298.613 686.363 175.954 649.666 94.9055 562.725L89.893 565.433ZM656.842 259.141C685.039 374.21 648.825 496.492 562.625 577.656L565.413 582.817C654.501 499.935 691.9 374.187 662.536 256.065L656.842 259.141ZM581.945 107.518C499.236 18.8371 373.997 -18.4724 256.228 10.5134L259.436 16.4515C373.888 -10.991 495.248 25.1518 576.04 110.708L581.945 107.518Z" fill="#000"/>
-                    </svg>
-                    <span>Veterinary Assistant</span>
-                    <a href="team-details.html"><h4>Willimes Domson</h4></a>
-                    <ul class="social-icon">
-                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    </ul>
-                </div>
+         </div>
+         <!-- /container -->
+      </section>
+      <!-- Section Contact -->
+      <section id="contact" class="dog-bg3">
+         <div class="container">
+            <div class="section-heading text-center">
+               <h2>Contact Us</h2>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="team-working mb-0">
-                    <img src="https://via.placeholder.com/170x170" alt="team">
-                    <svg width="188" height="188" viewBox="0 0 673 673" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.82698 416.603C-19.0352 298.701 18.5108 173.372 107.497 90.7633L110.607 96.5197C24.3117 177.199 -12.311 298.935 15.0502 413.781L9.82698 416.603ZM89.893 565.433C172.674 654.828 298.511 692.463 416.766 663.224L414.077 658.245C298.613 686.363 175.954 649.666 94.9055 562.725L89.893 565.433ZM656.842 259.141C685.039 374.21 648.825 496.492 562.625 577.656L565.413 582.817C654.501 499.935 691.9 374.187 662.536 256.065L656.842 259.141ZM581.945 107.518C499.236 18.8371 373.997 -18.4724 256.228 10.5134L259.436 16.4515C373.888 -10.991 495.248 25.1518 576.04 110.708L581.945 107.518Z" fill="#000"/>
-                    </svg>
-                    <span>Veterinary Assistant</span>
-                    <a href="team-details.html"><h4>Thomas Walkar</h4></a>
-                    <ul class="social-icon">
-                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    </ul>
-                </div>
+            <!-- /Section-heading -->
+         </div>
+         <!-- /container -->
+         <div class="container">
+            <div class="row">
+               <!-- contact info -->
+               <div class="contact-info col-lg-5 card bg-light-custom">
+                  <h4>Send us a message!</h4>
+                  <!-- Form Starts -->
+                  <div id="contact_form">
+                     <div class="form-group">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <label>Name<span class="required">*</span></label>
+                              <input type="text" name="name" class="form-control input-field" required=""> 
+                           </div>
+                           <div class="col-md-6">
+                              <label>Email Address <span class="required">*</span></label>
+                              <input type="email" name="email" class="form-control input-field" required=""> 
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-md-12">
+                              <label>Subject</label>
+                              <input type="text" name="subject" class="form-control input-field"> 
+                           </div>
+                           <div class="col-md-12">
+                              <label>Message<span class="required">*</span></label>
+                              <textarea name="message" id="message" class="textarea-field form-control" rows="3"  required=""></textarea>
+                           </div>
+                        </div>
+                        <button type="submit" id="submit_btn" value="Submit" class="btn btn-primary">Send message</button>
+                     </div>
+                     <!-- Contact results -->
+                     <div id="contact_results"></div>
+                  </div>
+               </div>
+               <div class="col-lg-7">
+                  <!-- map-->
+                  <div id="map-canvas" class="mt-3 border-irregular1"></div>
+               </div>
+               <!-- /col-lg-->
             </div>
-        </div>
-    </div>
-</section>
-<section class="gap"> 
-    <div class="container">
-        <div class="dog-walker">
-            <img src="https://via.placeholder.com/616x704" alt="dog walker">
-            <img src="assets/img/line.png" class="line" alt="line">
-            <img src="assets/img/dabal-foot.png" class="dabal-foot" alt="dabal-foot">
-            <div class="dog-walker-text">
-                <h2>Find a dog walker or pet care</h2>
-                <p>Place your trust in We Love Pets, an award-winning dog walking and pet care</p>
-                <form>
-                    <input placeholder="Enter address or postcode..." name="Enter address" type="text">
-                    <button class="button">Find Branch</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>  
-<section class="section-client gap" style="background-image: url(assets/img/client-b.jpg)">
-    <div class="container">
-        <div class="heading two">
-            <h2>What Our Client’s Say</h2>
-        </div>
-        <div class="client-slider owl-carousel owl-theme">
-            <div class="item" >
-                <div class="client">
-                    <img src="assets/img/client.png" alt="client">
-                    <div class="client-text">
-                        <ul class="star">
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
+            <!-- /row-->
+            <div class="row res-margin mt-5">
+               <div class="col-lg-6 mt-5">
+                  <div class="contact-icon">
+                     <!---icon-->
+                     <i class="fa fa-envelope top-icon"></i>
+                     <!-- contact-icon info-->
+                     <div class="contact-icon-info">
+                        <h5>Send us a Message</h5>
+                        <p class="h7"><a href="mailto:email@yoursite.com">email@yoursite.com</a></p>
+                     </div>
+                  </div>
+               </div>
+               <!-- /contact-icon-->
+               <div class="col-lg-6 mt-5">
+                  <div class="contact-icon">
+                     <!---icon-->
+                     <i class="fa fa-map-marker top-icon"></i>
+                     <!-- contact-icon info-->
+                     <div class="contact-icon-info">
+                        <h5>Visit our Location</h5>
+                        <p class="h7">Pet Street 123 - New York</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- /contact-icon-->
+               <div class="col-lg-6 mt-5">
+                  <div class="contact-icon">
+                     <!---icon-->
+                     <i class="fa fa-phone top-icon"></i>
+                     <!-- contact-icon info-->
+                     <div class="contact-icon-info">
+                        <h5>Call us today</h5>
+                        <p class="h7">(123) 456-789</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- /contact-icon-->
+               <div class="col-lg-6 mt-5">
+                  <div class="contact-icon">
+                     <!---icon-->
+                     <i class="fa fa-heart top-icon"></i>
+                     <!-- contact-icon info-->
+                     <div class="contact-icon-info">
+                        <h5>Follow us on Social Media</h5>
+                        <ul class="social-media">
+                           <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                           <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                           <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
                         </ul>
+<<<<<<< HEAD
                         <p>Excepteur sint occaecat cupidatat nilesm aniu deserunt mollit anim Lorem set dolo liem amet dolor sit amet, consectetur adipiscing il erunti nuliems elit sed incididunt</p>
                         <h4>Qlark Domous</h4>
                         <span>Health Advisor</span>
@@ -926,118 +1318,55 @@
                       <li><i class="fa-solid fa-angle-right"></i><a href="javascript:void(0)">Service at a Resort</a></li>
                       <li><i class="fa-solid fa-angle-right"></i><a href="javascript:void(0)">Veterinary Service</a></li>
                     </ul>
+=======
+                     </div>
+>>>>>>> 576b3900724e92bba1a3445033b4d13fa8f85759
                   </div>
+               </div>
+               <!-- /contact-icon-->
             </div>
-            <div class="col-xl-4 col-lg-6">
-                <div class="working-hours">
-                    <div class="widget-title">
-                      <h3>working hours</h3>
-                      <div class="boder"></div>
-                      <div class="working-time">
-                          <h6 class="pt-0">Monday - Saturday <span>08AM - 10PM</span></h6>
-                          <h6>Sunday<span>08AM - 10PM</span></h6>
-                          <div class="call-us">
-                              <img src="assets/img/hadphon.png" alt="hadphon">
-                              <div>
-                                  <a href="#">+021 01283492</a>
-                                  <span>Got Questions? Call us 24/7</span>
-                              </div>
-                          </div>
-                          <ul class="social-icon">
-                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                          </ul>
-                      </div>
-                    </div>
-                </div>
+            <!-- /row -->
+         </div>
+         <!-- /container --> 
+      </section>
+      <!-- /Section ends -->
+      <!-- ==== footer ==== -->
+      <footer class="text-light">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6">
+                  <a class="navbar-brand" href="index.html"><i class="flaticon-dog-20"></i><span>Woof!</span></a>
+                  <p class="mt-3">Cras enim wisi elit aenean, amet eros curabitur. Wisi ad eget ipsum<br>  metus sociisc ras enim wisi elit aenean.</p>
+               </div>
+               <!--/ col-lg -->
+               <div class="col-lg-3">
+                  <h6><i class="fas fa-envelope margin-icon"></i>Contact Us</h6>
+                  <ul class="list-unstyled">
+                     <li>(123) 456-789</li>
+                     <li><a href="mailto:email@yoursite.com">email@yoursite.com</a></li>
+                     <li>Pet Street 123 - New York </li>
+                  </ul>
+                  <!--/ul -->
+               </div>
+               <!--/ col-lg -->
+               <div class="col-lg-3">
+                  <h6><i class="far fa-clock margin-icon"></i>Working Hours</h6>
+                  <ul class="list-unstyled">
+                     <li>Open 9am - 10pm</li>
+                     <li>Holidays - Closed</li>
+                     <li>Weekends - Closed</li>
+                  </ul>
+                  <!--/ul -->
+               </div>
+               <!--/ col-lg -->
             </div>
-        </div>
-        <div class="copyright">
-            <p>Patte Pet Care - Copyright 2023. Design by Winsfolio</p>
-            <a href="#"><img src="assets/img/visa.jpg" alt="cad"></a>
-        </div>
-    </div>
-    <img src="assets/img/hero-shaps-1.png" alt="hero-shaps" class="img-2">
-    <img src="assets/img/dabal-foot-1.png" alt="hero-shaps" class="img-3">
-    <img src="assets/img/hero-shaps-1.png" alt="hero-shaps" class="img-4">
-</footer>
-<!-- cart-popup -->
-    <div id="lightbox" class="lightbox clearfix">
-        <div class="white_content">
-            <a href="javascript:;" class="textright" id="close"><i class="fa-regular fa-circle-xmark"></i></a>
-                <div class="cart-popup">
-                <ul>
-
-                      <li class="d-flex align-items-center position-relative">
-
-                        <div class="p-img light-bg">
-
-                          <img src="assets/img/food-1.png" alt="Product Image">
-
-                        </div>
-
-                        <div class="p-data">
-
-                          <h3 class="font-semi-bold">Brown Sandwich</h3>
-
-                          <p class="theme-clr font-semi-bold">1 x $10.50</p>
-
-                        </div>
-
-                        <a href="JavaScript:void(0)" id="crosss"></a>
-
-                      </li>
-
-                      <li class="d-flex align-items-center position-relative">
-
-                        <div class="p-img light-bg">
-
-                          <img src="assets/img/food-2.png" alt="Product Image">
-
-                        </div>
-
-                        <div class="p-data">
-
-                          <h3 class="font-semi-bold">Banana Leaves</h3>
-
-                          <p class="theme-clr font-semi-bold">1 x $12.60</p>
-
-                        </div>
-
-                        <a href="JavaScript:void(0)" id="cross"></a>
-
-                      </li>
-
-                </ul>
-
-                <div class="cart-total d-flex align-items-center justify-content-between">
-
-                <span class="font-semi-bold">Total:</span>
-
-                <span class="font-semi-bold">$23.10</span>
-
-                </div>
-
-                <div class="cart-btns d-flex align-items-center justify-content-between">
-
-                <a class="font-bold" href="JavaScript:void">View Cart</a>
-
-                <a class="font-bold theme-bg-clr text-white checkout" href="JavaScript:void">Checkout</a>
-
-                </div>
-        </div>
-        </div>
-    </div>
-<!-- cart-popup end -->
-<!-- search-popup -->
-<div class="search-popup">
-        <button class="close-search"><i class="fa-solid fa-arrow-right"></i></button>
-        <form method="post" action="#">
-            <div class="form-group">
-                <input type="search" name="search-field" value="" placeholder="Search Here" required="">
-                <button type="submit"><i class="fa fa-search"></i></button>
+            <!--/ row-->
+            <div class="row">
+               <div class="credits col-sm-12">
+                  <p>Designed by <a href="http://www.ingridkuhn.com">Ingrid Kuhn</a></p>
+               </div>
             </div>
+<<<<<<< HEAD
         </form>
 </div>
 <!-- search-popup end -->
@@ -1054,4 +1383,39 @@
 <script src="assets/js/jquery.fancybox.min.js"></script>
 <script src="assets/js/custom.js"></script>
 </body>
+=======
+            <!--/ row -->
+         </div>
+         <!--/ container -->
+         <!-- Go To Top Link -->
+         <div class="d-none d-md-block">
+            <a href="#top" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+         </div>
+         <!--/page-scroll-->
+      </footer>
+      <!--/ footer-->
+      <!-- Bootstrap core & Jquery -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+      <!-- Custom Js -->
+      <script src="js/custom.js"></script>
+      <script src="js/plugins.js"></script>
+      <!-- Prefix free -->
+      <script src="js/prefixfree.min.js"></script>
+      <!-- GreenSock -->
+      <script src="vendor/layerslider/js/greensock.js"></script>
+      <!-- LayerSlider script files -->
+      <script src="vendor/layerslider/js/layerslider.transitions.js"></script>
+      <script src="vendor/layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
+      <script src="vendor/layerslider/js/layerslider.load.js"></script>
+      <!-- Mailchimp script -->
+      <script src="js/mailchimp.js"></script>
+      <!-- number counter script -->
+      <script src="js/counter.js"></script>
+      <!-- Contact Form script -->
+      <script src="js/contact.js"></script>
+      <!-- Map -->
+      <script src="js/map.js"></script>
+   </body>
+>>>>>>> 576b3900724e92bba1a3445033b4d13fa8f85759
 </html>
