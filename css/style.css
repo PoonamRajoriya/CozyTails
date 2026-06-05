@@ -24,7 +24,22 @@ Last change:27 June 2023
 	#Media Queries
 
 /*=========================== General and Typography ============================ */
- body {
+iframe{
+    border-radius:20px;
+}
+.service-icon:hover svg path{
+    fill: #DB9292;
+}
+svg path{
+    color:#675444;
+}
+#svg{
+     margin-top: 45px;
+}
+#hotel{
+    fill: #675444;
+}
+body {
      font-family: 'Open Sans', sans-serif;
      color:#808080;
 }
@@ -97,6 +112,7 @@ Last change:27 June 2023
 }
  a:hover, a:focus {
      text-decoration: none;
+     background-color: #DB9292;
 }
  *:focus{
      outline-style:none;
@@ -178,7 +194,7 @@ Last change:27 June 2023
  .navbar .nav-item:focus .dropdown.show{
      background: transparent!important;
 }
- .navbar .nav-item.active,.navbar .dropdown-item:hover,.navbar .dropdown-item:focus,.navbar .nav-link:focus,.navbar .nav-item:hover,.navbar .nav-item .active{
+ .navbar .nav-item.active,.navbar .dropdown-item:hover,.navbar .dropdown-item:focus,.navbar .nav-link:hover,.navbar .nav-item:hover,.navbar .nav-item .active{
      color:#fff!important;
      border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
 }
@@ -367,7 +383,7 @@ Last change:27 June 2023
      z-index: 2;
      background: rgba(0,0,0,0.3);
 }
-/*=========================== Services ============================ */
+/*=========================== <strong>Service</strong>s ============================ */
  .serviceBox{
      margin-bottom:20px;
      text-align: center;
@@ -384,7 +400,7 @@ Last change:27 June 2023
  .serviceBox .service-content{
      margin-top: 60px;
 }
- .service-hover-box img {
+ .service-hover-box img svg{
      transition: all 0.3s;
 }
  .service-hover-box .service-hover-caption {
@@ -538,7 +554,7 @@ Last change:27 June 2023
  #call-to-action {
      background-attachment:fixed!important;
      background-size: cover!important;
-     background: url(../img/calltoaction.jpg);
+     background: url("../img/calltoaction.jpg");
 }
 /*=========================== team ============================ */
 /* team style 1 */
@@ -1169,7 +1185,7 @@ select.form-control {
 /* Blurb */
  .blurb-img {
      position: absolute;
-     top: -300px;
+     top: 0px;
      left: 0px;
      z-index:999;
 }
